@@ -1,0 +1,147 @@
+
+ /* Parte de cima */
+
+ * {
+    margin: 0;
+}
+
+ .menu-principal {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    margin-left: 15px;
+    float: left;
+    width: 30%;
+}
+.redes-sociais ul li {
+    list-style: none;
+    float: left;
+}
+.redes-sociais {
+    width: 10%;
+    float: right;
+    margin-top: -15px;
+}
+.nome-logo {
+    width: 70%;
+    color: white;
+    float: left;
+}
+.header-2 {
+    height: 40px;
+    background-color: white;
+    width: 980px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    margin-left: 18px;
+    height: 30px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.menu ul li  a:hover{
+    color: #00bac6;
+}
+.menu ul li:hover{
+    border-bottom: 1px solid #00bac6;
+}
+.menu{
+    width: 95%;
+    float: left;
+    
+}
+.Pesquisa {
+    width: 5%;
+    float: left;
+    margin-top: -15px;
+}
+.Pesquisa input{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 13px;
+    height: 25px;
+}
+.one {
+    border-bottom: 3px solid #efefef ;
+    float: left;
+    position: relative;
+
+}
+
+
+/* Parte do conteudo */
+
+.nos-foto {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    padding: 10px;
+    display: flex;
+    width: 80%;
+}
+
+
+figure.nos-foto {
+    border: 5px solid white;
+    border-width: auto;
+    box-shadow: 1px 1px 4px black;
+    display: inline-block;
+    position: relative;
+    
+
+}
+
+figure.nos-foto img{
+    height: 500px;
+    float: left;
+    padding: 35px;
+
+
+}
+
+figure.nos-foto figcaption {
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+/* Parte do rodape */
+
+
+.rodape{
+    margin-top: auto;
+    float: left;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+}
+
+.info {
+    color: white;
+    float: right;
+}
+
